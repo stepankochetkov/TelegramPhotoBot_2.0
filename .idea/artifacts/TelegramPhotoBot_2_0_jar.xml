@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="TelegramPhotoBot_2.0:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/TelegramPhotoBot_2_0_jar</output-path>
+    <root id="archive" name="TelegramPhotoBot_2.0.jar">
+      <element id="module-output" name="TelegramPhotoBot_2.0" />
+      <element id="extracted-dir" path="$USER_HOME$/Desktop/telegrambots-3.5-jar-with-dependencies.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
