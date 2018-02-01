@@ -76,7 +76,7 @@ public class PhotoBot extends TelegramLongPollingBot {
             } else if (message_text.equals("Row 1 Button 1")) {
                 SendPhoto msg = new SendPhoto()
                         .setChatId(chat_id)
-                        .setPhoto("AgADAQADzqcxGyB4iEcho4IkzDTe7xI29y8ABFa6uhXQh33KTIkBAAEC")
+                        .setPhoto("")
                         .setCaption("Photo");
 
                 try {
@@ -140,13 +140,13 @@ public class PhotoBot extends TelegramLongPollingBot {
     public String getBotUsername() {
         // Return bot username
         // If bot username is @MyAmazingBot, it must return 'MyAmazingBot'
-        return "blueDog";
+        return "";
     }
 
     @Override
     public String getBotToken() {
         // Return bot token from BotFather
-        return "533937849:AAHrvaXer2McN_uArrWZ-o7LPTP183FVY9c";
+        return "";
     }
 }
 
