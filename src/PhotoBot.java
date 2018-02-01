@@ -127,7 +127,7 @@ public class PhotoBot extends TelegramLongPollingBot {
             SendPhoto msg = new SendPhoto()
                     .setChatId(chat_id)
                     .setPhoto(f_id)
-                    .setCaption(caption);
+                    .setCaption(caption); 
             try {
                 sendPhoto(msg); // Call method to send the message
             } catch (TelegramApiException e) {
